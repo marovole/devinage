@@ -43,7 +43,10 @@ install: app
 	cp -R $(BIN_DIR)/$(APP).app /Applications/
 	@echo "已安装 → /Applications/$(APP).app"
 
+icon:
+	python3 scripts/make_icon.py
+
 clean:
 	rm -rf $(BIN_DIR)
 
-.PHONY: build run release app install clean
+.PHONY: build run release app install icon clean
