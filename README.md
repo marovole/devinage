@@ -21,7 +21,7 @@ A lightweight macOS menu bar app that shows your **Devin CLI** token consumption
 ## Build & run
 
 ```bash
-git clone <repo> && cd devinage
+git clone https://github.com/marovole/devinage.git && cd devinage
 
 make run      # builds and launches the menu bar app
 make app      # builds .build/Devinage.app (release, ad-hoc signed)
